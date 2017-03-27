@@ -19,7 +19,7 @@ body {
   margin: auto;
   margin-top: 80px;
   width: 868px;
-  position: relative;
+  position:   relative;
   top: 50%;
   overflow: auto;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 .copy p {
-  max-width: 70%;
+  max-width: 70%
   /*max-width: 0%;*/
   /*display: inline;*/
   /*margin: 0;*/
@@ -76,23 +76,39 @@ body {
   margin: 10px;
 }
 
-footer p {
+.bottom-nav p {
   text-align: right;
-  display: inline-block;
+  display: inline;
+  margin-left: 100px;
+  font-size: 12px;
+}
+
+.bottom-nav {
+  width: 868px;
+  margin: auto;
+  margin-top: 20px;
+  /*display: inline-block;*/
 }
 
 .nav {
   list-style: none;
   text-decoration: none;
   display: inline-block;
-  margin-top: 55px;
-  margin-left: 650px;
+  margin: auto;
   text-align: center;
+  margin-left: 100px;
+}
+
+.nav ul {
+  display: inline;
+  margin-left: 100px;
 }
 
 .nav li {
   display: inline;
   margin: 5px;
   color: #06365f;
-
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
 }
