@@ -18,7 +18,7 @@ body {
 .site-container {
   margin: auto;
   margin-top: 80px;
-  width: 50%;
+  max-width: 60%;
   position: relative;
   top: 50%;
   overflow: auto;
@@ -36,6 +36,7 @@ body {
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
   margin-left: 50px;
+  float: left;
 }
 
 .phones {
@@ -45,6 +46,7 @@ body {
 
 .logo {
   display: inline-block;
+  float: left;
   max-width: 50%;
   margin-left: 50px;
 }
@@ -57,13 +59,13 @@ body {
 }
 
 .copy h2 {
-  max-width: 70%;
+  max-width: 60%;
   /*display: inline;*/
   /*margin: 0;*/
 }
 
 .copy p {
-  max-width: 80%;
+  max-width: 70%;
   /*max-width: 0%;*/
   /*display: inline;*/
   /*margin: 0;*/
@@ -71,4 +73,24 @@ body {
 
 .pbutton {
   margin: 10px;
+}
+
+footer p {
+  text-align: right;
+  display: inline-block;
+}
+
+.nav {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 55px;
+  margin-left: 650px;
+  text-align: center;
+}
+
+.nav li {
+  display: inline;
+  margin: 5px;
+
 }
