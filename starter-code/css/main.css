@@ -18,7 +18,7 @@ body {
 .site-container {
   margin: auto;
   margin-top: 80px;
-  max-width: 60%;
+  width: 868px;
   position: relative;
   top: 50%;
   overflow: auto;
@@ -32,7 +32,7 @@ body {
 
 .right-content {
   display: inline-block;
-  max-width: 60%;
+  width: 500px;
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
   margin-left: 50px;
@@ -55,11 +55,12 @@ body {
   margin: 20px;
   clear: both;
   display: inline-block;
-  max-width: 100%;
+  /*max-width: 100%;*/
 }
 
 .copy h2 {
   max-width: 60%;
+  color: #06365f;
   /*display: inline;*/
   /*margin: 0;*/
 }
@@ -92,5 +93,6 @@ footer p {
 .nav li {
   display: inline;
   margin: 5px;
+  color: #06365f;
 
 }
