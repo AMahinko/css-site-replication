@@ -13,3 +13,62 @@ body {
   background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
 }
+
+
+.site-container {
+  margin: auto;
+  margin-top: 80px;
+  width: 50%;
+  position: relative;
+  top: 50%;
+  overflow: auto;
+}
+
+.left-image {
+  max-width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+.right-content {
+  display: inline-block;
+  max-width: 60%;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  margin-left: 50px;
+}
+
+.phones {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  max-width: 50%;
+  margin-left: 50px;
+}
+
+.copy {
+  margin: 20px;
+  clear: both;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.copy h2 {
+  max-width: 70%;
+  /*display: inline;*/
+  /*margin: 0;*/
+}
+
+.copy p {
+  max-width: 80%;
+  /*max-width: 0%;*/
+  /*display: inline;*/
+  /*margin: 0;*/
+}
+
+.pbutton {
+  margin: 10px;
+}
